@@ -1,0 +1,59 @@
+.banner{padding-left:150px;margin-top:10px;}
+#box img{
+width: 720px;
+height: 220px;
+}
+#flash{width:720px;
+    height:220px;
+    overflow: hidden;
+}
+#box{
+    height:220px;
+    width:4320px;
+}
+#box img{float:left;}
+#div4 span{
+display: inline-block;
+height: 10px;
+width: 117px;
+position:relative;
+z-index:2;
+left:0;
+top:-10px;
+background:whitesmoke;
+}
+.banner-list{
+	padding-top: 10px;
+}
+.banner-list ul{
+	
+	overflow: hidden;
+	width: 720px;	
+}
+.banner-list ul li{
+	margin-top: 10px;
+	float: left;
+    margin-left:35px;
+	position: relative;
+	width: 30%;
+	
+
+}
+.banner-list ul li img{
+	display: block;
+	width: 100%;
+	height:100% 
+}
+.banner-list ul li span{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	width: 95%;
+	height: 50px;
+	color: white;
+	padding: 5px 5px;
+}
+
+.banner-list ul li:nth-child(1){
+	margin-left: 0;
+}

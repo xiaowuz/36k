@@ -1,0 +1,83 @@
+.left{float: left;}
+.right{
+	float: right;
+	padding-right: 150px;
+	width: 240px;
+}
+.right-top{border-bottom: 1px solid blue;}
+.right-top img{width: 240px;height: 160px;margin: 10px 0 20px 0;
+}
+.right-7 h3,.hot h3{
+	padding: 10px 0;
+border-bottom: 1px dashed blue;
+text-align: center;
+}
+.right-7 li{margin-top: 20px;}
+.right-7 i{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top:5px solid transparent;
+	border-bottom:5px solid transparent;
+	border-left:5px solid blue;
+}
+.right-7 span{
+	display: block;
+	margin-top: 10px;
+}
+.right-7>a{
+	margin: 20px 0;
+	display: inline-block;
+	/*width: 100%;*/
+	margin-left: 90px;
+	border: 1px solid blue;
+	color: blue;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+.right-hot{position: relative;
+margin-top: 10px;}
+.right-hot img{
+	width: 240px;
+    height:160px;
+}
+.right-hot span{
+	position: absolute;
+	width:92%;
+	bottom: 0;
+	height: 50px;
+	background: rgba(0,0,0,0.5);
+	padding: 10px 10px;
+	color: white;
+}
+.back{
+	position:fixed;
+	bottom:30px;
+	right:0;
+	width:30px;
+	height:60px;
+	background: red;
+
+}
+/*.back a{color: white;
+font-size: 20px;
+}
+.back a i{
+	transform:rotate(45deg);
+}*/
+.back ul{
+	width: 30px;
+	height: 60px;
+}
+.back ul li{
+	width: 100%;
+	height: 28px;
+	border: 1px solid gray;
+}
+.back ul li input{
+	width: 100%;
+	height: 100%;
+}
+#li{
+  display: none;
+}

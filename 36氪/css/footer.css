@@ -1,0 +1,26 @@
+.center{
+	overflow: hidden;
+}
+.foot{
+    padding:0 150px;
+    margin: 30px 0;	
+	background: black;	
+
+}
+.foot-top ul{flex:1;margin-top: 30px;}
+.foot-top ul li{line-height: 25px;font-size: 16px;}
+.foot-top{
+	padding: 30px 0;
+	border-bottom: 1px solid gray;
+	overflow: hidden;
+	display: flex;
+
+}
+.foot-fo{
+	
+	border-bottom: 1px solid gray;
+	margin: 30px 0;
+}
+.foot-fo p{
+	height: 30px;
+}
